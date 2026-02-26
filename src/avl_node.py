@@ -16,3 +16,6 @@ class RecipeNode:
         self.height = 1
         self.left = None
         self.right = None
+
+    def __repr__(self):
+        return f"RecipeNode(title={self.title!r}, height={self.height})"
