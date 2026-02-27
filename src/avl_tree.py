@@ -17,5 +17,12 @@ class AVLTree:
         self._size += 1
 
     def search(self, title: str) -> RecipeNode | None:
-        """search for recupe by exact title and returns RecipeNode if found and doesn't if not"""
+        """search for recipe by exact title and returns RecipeNode if found and doesn't if not"""
         return self._search(self.root, title.lower())
+
+    def search_prefix(self, prefix: str) -> list:
+        """
+        """
+        results = []
+        self._search_prefix(self.root, prefix.lower(), results)
+        return results
