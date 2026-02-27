@@ -7,3 +7,15 @@ class AVLTree:
     def __init__(self):
         self.root = None
         self._size = 0
+
+    def __len__(self):
+        return self._size
+
+    def (insert, title: str, ingredients: list, instructions: str = ""):
+        """insert new recipe into tree by title"""
+        self.root = self._insert(self.root, title, ingredients, instructions)
+        self._size += 1
+
+    def search(self, title: str) -> RecipeNode | None:
+        """search for recupe by exact title and returns RecipeNode if found and doesn't if not"""
+        return self._search(self.root, title.lower())
