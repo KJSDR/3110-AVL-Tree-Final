@@ -1,3 +1,4 @@
+from __future__ import annotations
 from src.avl_node import RecipeNode
 
 

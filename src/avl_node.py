@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 class RecipeNode:
     """
     Single node in AVL tree

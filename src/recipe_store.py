@@ -14,7 +14,7 @@ class RecipeStore:
             data = json.load(f)
 
         for key, recipe in data.items():
-            title = recipe.get('title', '').strip()
+            title = (recipe.get('title') or '').strip()
             ingredients = recipe.get('ingredients', [])
             instructions = recipe.get('instructions', '')
 
