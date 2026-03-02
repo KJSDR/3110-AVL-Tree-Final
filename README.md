@@ -4,7 +4,7 @@ A self-balancing binary search tree (AVL) for searching and browsing recipes. Bu
 
 ## Dataset
 
-Uses two recipe datasets from [Eight Portions](https://eightportions.com) (about 34k recipes total).
+Uses two recipe datasets from [Eight Portions](https://eightportions.com) (about 30k+ recipes total).
 
 ## Features
 
