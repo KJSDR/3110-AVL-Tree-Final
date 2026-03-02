@@ -4,7 +4,7 @@ A self-balancing binary search tree (AVL) for searching and browsing recipes. Bu
 
 ## Dataset
 
-Uses two recipe datasets from [Epicurious](https://www.epicurious.com/) and [Food Network](https://www.foodnetwork.com/) (about 34k recipes total).
+Uses two recipe datasets from [Eight Porttions](https://eightportions.com) (about 34k recipes total).
 
 ## Features
 
