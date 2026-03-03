@@ -39,11 +39,14 @@ src/
     avl_node.py       # Node class
     avl_tree.py       # AVL tree implementation
     recipe_store.py   # Data loading and tree population
-main.py             # CLI entry point
+
 tests/              # Unit tests
     __init__.py
     test_avl_tree.py
+
 data/               # Recipe JSON files
     recipes_raw_nosource_epi.json
     recipes_raw_nosource_fn.json
+
+main.py             # CLI entry point
 ```
