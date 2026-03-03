@@ -16,7 +16,7 @@ Uses two recipe datasets from [Eight Portions](https://eightportions.com) (about
 ## Setup
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:KJSDR/3110-AVL-Tree-Final.git
 cd recipe-avl-tree
 python -m venv venv
 source venv/bin/activate
