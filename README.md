@@ -2,6 +2,8 @@
 
 A self-balancing binary search tree (AVL) for searching and browsing recipes. Built as a final project for ACS 3310 to explore how tree structures can improve search performance over naive linear lookups.
 
+Medium article on this project: [Medium Article](https://medium.com/p/c5881720cb15?postPublishedType=initial)
+
 ## Dataset
 
 Uses two recipe datasets from [Eight Portions](https://eightportions.com) (about 30k+ recipes total).
